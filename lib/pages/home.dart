@@ -103,7 +103,7 @@ class Home extends StatelessWidget {
                   ]),
                   footer: GridTileBar(
                     trailing: IconButton(
-                        color: const Color.fromARGB(255, 62, 94, 70),
+                        color: Color(0xFF3E535E),
                         onPressed: () {
                           classInstancee.add(items[index]);
                         },
